@@ -49,7 +49,6 @@ class PinsController < ApplicationController
       @pin = Pin.find(params[:id])
     end
 
-  ]
     def pin_params
       params.require(:pin).permit(:description)
     end
