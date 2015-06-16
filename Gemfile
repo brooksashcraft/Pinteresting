@@ -12,6 +12,9 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'paperclip'
 gem 'aws-sdk', '< 2.0'
+gem 'jquery-turbolinks'
+gem 'masonry-rails'
+
 
 group :development, :test do
 	gem 'sqlite3'
