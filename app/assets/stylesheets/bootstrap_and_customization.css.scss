@@ -8,6 +8,7 @@ $navbar-default-brand-color:	#c0392b;
 $brand-primary:					#c0392b;
 $jumbotron-bg:					white;
 
+
 @import "bootstrap-sprockets";
 @import 'bootstrap';
 
@@ -18,6 +19,12 @@ $jumbotron-bg:					white;
 .navbar-brand {
      font-weight: bold;
 }
+
+.checkbox input[type="checkbox"] {
+  margin-left: 0;
+}
+
+
 
 
 
